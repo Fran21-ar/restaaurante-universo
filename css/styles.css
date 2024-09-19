@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main{
+    border-radius: 20px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    background: #d1d1d1;
+    padding: 20px;
+    height: 80%;
+}
+
+.div_principal{
+    width: 48%;
+    justify-content: center;
+}
+
+.input{
+    width: 48%;
+}
+
+.clientes{
+    width: 48%; 
+    justify-content: center;
+    height: 100%;
+    overflow-y: auto;
+    border-radius: 20px;
+}
+
+.clientes::-webkit-scrollbar {
+    width: 10px; /* Ancho del scroll */
+}
+
+.clientes::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Color de fondo del scroll */
+}
+
+.clientes::-webkit-scrollbar-thumb {
+    background-color: #252525; /* Color del "thumb" (barra de desplazamiento) */
+    border-radius: 10px; /* Redondear las esquinas del scroll */
+}
+
+.carta{
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#mesa-form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+input[type='text'], button {
+    width: 48%;
+    padding: 8px; 
+}
+
+button {
+    background: #33a723d8;
+    color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #33a723d8;
+}
+
+.mesa {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.mesa h2 {
+    margin-top: 0;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mesa input[type='text'] {
+    width: 60%;
+    margin-right: 10px;
+
+}
+
+.eliminar-item{
+    background: #c02e2e;
+}
+
+.eliminar-item:hover{
+    background: #a82222;
+}
+
+.mesa input[type='number'] {
+    width: 20%;
+    margin-right: 10px;
+}
